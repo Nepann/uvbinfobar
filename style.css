@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
-    font-family: "Raleway", sans-serif;
-    font-weight: <weight>;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
     font-style: normal;
 }
 
 #info-bar {
     position: fixed;
     top: 50%;
+    opacity: 0.9; /* transparenc/ширина customize it yourself, value from 0 to 1 */
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
+    width: 350px; /* width/ширина, customize it yourself */
     height: 250px;
     background-color: #000;
     color: #fff;
